@@ -50,11 +50,11 @@
     python main.py --date="01.01.2023"```
 
 Поддерживаемые форматы данных:
-    ```markdown
-    Email: user@example.com
-    Телефон: +7 XXX XXX XX XX
-    Дата: DD.MM.YYYY или YYYY-MM-DD
-    Текст: любые другие строки```
+    ```bash
+Email: user@example.com
+Телефон: +7 XXX XXX XX XX
+Дата: DD.MM.YYYY или YYYY-MM-DD
+Текст: любые другие строки```
 
 ## Тестирование
 Проект включает полный набор тестов:
