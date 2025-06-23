@@ -42,23 +42,20 @@
 ## Использование
 Формат аргументов:
 
-    ```text
-    --<имя_параметра>=<значение>```
+    --<имя_параметра>=<значение>
 
 Примеры:
 
-    ```bash
     python main.py --email=test@example.com
     python main.py --phone="+7 123 456 78 90"
-    python main.py --date="01.01.2023"```
+    python main.py --date="01.01.2023"
 
 Поддерживаемые форматы данных:
 
-    ```markdown
     Email: user@example.com
     Телефон: +7 XXX XXX XX XX
     Дата: DD.MM.YYYY или YYYY-MM-DD
-    Текст: любые другие строки```
+    Текст: любые другие строки
 
 ## Тестирование
 Проект включает полный набор тестов:
@@ -68,7 +65,7 @@
 4. Интеграционные тесты
 
 Для запуска всех тестов:
-    ```bash
-    pytest Test.py -v```
+
+    pytest Test.py -v
 Автор
 [Nagib227](https://github.com/Nagib227)
