@@ -1,5 +1,8 @@
 import sys
 
+class DuplicateArgumentError(Exception):
+    pass
+
 def Parse_console_args():
     args = {}
     for i in sys.argv[1:]:
@@ -7,6 +10,6 @@ def Parse_console_args():
         name = name.strip()[2:]
         value = value.strip()
         if not (args.get(name, None) is None):
-            raise "два аргумента с одним именем"
+            raise DuplicateArgumentError(f"Два аргумента с одним именем: {name}")
         args[name] = value
     return args
