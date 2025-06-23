@@ -13,8 +13,8 @@
 
 ## Структура проекта
 
-praktik_tokmakov/
-├── db/
+praktik_tokmakov/ 
+├── db/ 
 │ └── db.json # Файл базы данных
 ├── DataType.py # Класс для определения типов данных
 ├── db.py # Модуль работы с базой данных
@@ -30,55 +30,41 @@ praktik_tokmakov/
    git clone https://github.com/Nagib227/praktik_tokmakov.git
    cd praktik_tokmakov```
 2. Установите зависимости:
-  ```bash
-  pip install tinydb pytest```
+   ```bash
+   pip install tinydb pytest```
 
 3. Запустите приложение:
-
-bash
-python main.py --username=text --email=test@example.com
-Для запуска тестов:
-
-bash
-pytest Test.py -v
-Использование
+   ```bash
+   python main.py --username=text --email=test@example.com```
+4. Запуск тестов:
+   ```bash
+   pytest Test.py -v```
+## Использование
 Формат аргументов:
-text
---<имя_параметра>=<значение>
+    ```text
+--<имя_параметра>=<значение>```
+
 Примеры:
+    ```bash
+    python main.py --email=test@example.com
+    python main.py --phone="+7 123 456 78 90"
+    python main.py --date="01.01.2023"```
 
-bash
-# Поиск по email
-python main.py --email=test@example.com
-
-# Поиск по телефону
-python main.py --phone="+7 123 456 78 90"
-
-# Поиск по дате
-python main.py --date="01.01.2023"
 Поддерживаемые форматы данных:
 Email: user@example.com
-
 Телефон: +7 XXX XXX XX XX
-
 Дата: DD.MM.YYYY или YYYY-MM-DD
-
 Текст: любые другие строки
 
-Тестирование
+## Тестирование
 Проект включает полный набор тестов:
-
-Тесты определения типов данных
-
-Тесты парсера аргументов
-
-Тесты работы с базой данных
-
-Интеграционные тесты
+1. Тесты определения типов данных
+2. Тесты парсера аргументов
+3. Тесты работы с базой данных
+4. Интеграционные тесты
 
 Для запуска всех тестов:
-
-bash
-pytest Test.py -v
+    ```bash
+    pytest Test.py -v```
 Автор
-Nagib227
+[Nagib227](https://github.com/Nagib227)
