@@ -27,17 +27,17 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Nagib227/praktik_tokmakov.git
-   cd praktik_tokmakov```
+   cd praktik_tokmakov
 2. Установите зависимости:
    ```bash
-   pip install tinydb pytest```
+   pip install tinydb pytest
 
 3. Запустите приложение:
    ```bash
-   python main.py --username=text --email=test@example.com```
+   python main.py --username=text --email=test@example.com
 4. Запуск тестов:
    ```bash
-   pytest Test.py -v```
+   pytest Test.py -v
    
 ## Использование
 Формат аргументов:
